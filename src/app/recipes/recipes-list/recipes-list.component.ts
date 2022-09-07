@@ -11,17 +11,17 @@ export class RecipesListComponent implements OnInit {
     new Recipe(
       'A Test Recipe',
       'This is simply a test',
-      'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505'
+      'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg'
     ),
     new Recipe(
       'A Test Recipe',
       'This is simply a test',
-      'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505'
+      'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg'
     ),
     new Recipe(
       'A Test Recipe',
       'This is simply a test',
-      'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg?quality=90&resize=556,505'
+      'https://upload.wikimedia.org/wikipedia/commons/1/15/Recipe_logo.jpeg'
     ),
   ];
 
