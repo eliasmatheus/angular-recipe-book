@@ -11,6 +11,7 @@ import { RecipesListComponent } from './recipes/recipes-list/recipes-list.compon
 import { RecipesComponent } from './recipes/recipes.component';
 import { ShoppingEditComponent } from './shopping-list/shopping-edit/shopping-edit.component';
 import { ShoppingListComponent } from './shopping-list/shopping-list.component';
+import { DropdownDirective } from './shared/dropdown.directive';
 
 const FORMS_MODULES = [FormsModule, ReactiveFormsModule];
 
@@ -24,6 +25,7 @@ const FORMS_MODULES = [FormsModule, ReactiveFormsModule];
     RecipeItemComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
+    DropdownDirective,
   ],
   imports: [BrowserModule, AppRoutingModule, ...FORMS_MODULES],
   providers: [],

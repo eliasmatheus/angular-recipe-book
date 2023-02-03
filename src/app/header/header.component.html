@@ -29,11 +29,12 @@
             href="#"
             class="nav-link dropdown-toggle"
             role="button"
-            data-bs-toggle="dropdown"
+            appDropdown
+            [appDropdownToggle]="dropdownMenu"
             >Manage</a
           >
 
-          <ul class="dropdown-menu">
+          <ul #dropdownMenu class="dropdown-menu">
             <li><a class="dropdown-item" href="#">Save Data</a></li>
             <li><a class="dropdown-item" href="#">Fetch Data</a></li>
           </ul>

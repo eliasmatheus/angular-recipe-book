@@ -21,12 +21,13 @@
       <button
         type="button"
         class="btn btn-primary dropdown-toggle"
-        data-bs-toggle="dropdown"
+        appDropdown
+        [appDropdownToggle]="dropdownMenu"
       >
         Manage Recipe
       </button>
 
-      <ul class="dropdown-menu" id="multiCollapseExample1">
+      <ul #dropdownMenu class="dropdown-menu" id="multiCollapseExample1">
         <li><a class="dropdown-item" href="#">Add Ingredients</a></li>
         <li><a class="dropdown-item" href="#">Edit Recipe</a></li>
         <li><a class="dropdown-item" href="#">Delete Recipe</a></li>
